@@ -14,7 +14,8 @@
 }
 
 #logo img {
-    width: 130px;
+    width: 150px;
+    padding: 7%;
     height: 80px;
 }
 
@@ -60,7 +61,7 @@
 }
 
 /*======================= Parallax =======================*/
-.imgTop{
+#imgHeader{
     background-image: url("../img/photo-01.png");
     width: 100%;
     height: 100%;
@@ -73,8 +74,8 @@
 }
 
 /*======================= Galeria (Botões) =======================*/
-.gallery{
-    margin-top: 5%;
+#portfolio{
+    padding-top: 8%;
     text-align: center;
 }
 
