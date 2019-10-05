@@ -26,7 +26,7 @@
                 <a class="scrollDirect" href="#niveisEnsino">Ensino</a>
                 <a class="scrollDirect" href="#sobre">Sobre</a>
                 <a class="scrollDirect" href="#portfolio">Portfólio</a>
-                <a class="scrollDirect" href="#faleConosco">Contato</a>
+                <a class="scrollDirect" href="#contato">Contato</a>
             </nav>
         </section>
     </header>
@@ -69,7 +69,7 @@
                     </figcaption>
                 </figure>
             </li>
-            <!--<li>
+            <li>
                 <figure>
                     <div><img src="images/2.png" alt="img02"></div>
                     <figcaption>
@@ -108,34 +108,61 @@
                         <a href="http://dribbble.com/shots/1117308-Phone">Take a look</a>
                     </figcaption>
                 </figure>
-            </li>-->
+            </li>
         </ul>
     </section>
 
     <!--======================================= Contato =======================================-->
-    <section id="faleConosco">
+    <div class="divisaoContato">
+        <h1>Contato</h1>
+        <h3>Envie suas dúvidas ou sugestões</h3>
+    </div>
+
+    <section id="contato">
         <form class="contatos">
-            <div class="teste1">
-            <div class="campoDuplo">
-                <div class="icone"><i class="fas fa-user-alt"></i></div><input type="text" name="nome" id="nome" placeholder="Digite o seu nome">
+            <div class="formLeft">
+                <div class="campoDuplo">
+                    <div class="icone"><i class="fas fa-user-alt"></i></div><input type="text" name="nome" id="nome" placeholder="Digite o seu nome">
+                </div>
+                <div class="campoDuplo">
+                    <div class="icone"><i class="fas fa-user-alt"></i></div><input type="text" name="assunto" id="assunto" placeholder="Digite o assunto">
+                </div>
+                <div class="campoDuplo">
+                    <div class="icone"><i class="fas fa-envelope"></i></div><input type="email" name="email" id="email" placeholder="Digite o seu e-mail">
+                </div>
             </div>
-            <div class="campoDuplo">
-                <div class="icone"><i class="fas fa-user-alt"></i></div><input type="text" name="assunto" id="assunto" placeholder="Digite o assunto">
+            <div class="formRight">
+                <div class="campoDuplo">
+                    <div class="icone"><i class="fas fa-comment"></i></div><textarea name="mensagem" id="mensagem" placeholder="Digite a Mensagem"></textarea>
+                </div>
             </div>
-            <div class="campoDuplo">
-                <div class="icone"><i class="fas fa-envelope"></i></div><input type="email" name="email" id="email" placeholder="Digite o seu e-mail">
-            </div>
-            </div>
-            <div class="teste2">
-            <div class="campoDuplo">
-                <div class="icone"><i class="fas fa-comment"></i></div><textarea name="mensagem" id="mensagem" placeholder="Digite a Mensagem"></textarea>
-            </div>
-            </div>    
             <div class="botao">
                 <button type="submit" name="enviar" id="enviar">Enviar Mensagem</button>
             </div>
         </form>
+        <!--Profile Card 3-->
+        <div class="card profile-card-3">
+            <div class="background-block">
+                <img src="https://images.pexels.com/photos/459225/pexels-photo-459225.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="profile-sample1" class="background" />
+            </div>
+            <div class="profile-thumb-block">
+                <img src="https://randomuser.me/api/portraits/men/41.jpg" alt="profile-image" class="profile" />
+            </div>
+            <div class="card-content">
+                <div class="redeSocial">
+                    <h2>Ailton Lima<small>Desenvolvedor</small></h2>
+                    <a class="fab fa-linkedin social" href="https://www.facebook.com/bootsnipp"></a>
+                    <a class="fab fa-github-square social" href="https://twitter.com/bootsnipp"></a>
+                </div>
+                <p class="description">"Conheça um pouco mais sobre mim."</p>
+            </div>
+        </div>
     </section>
+
+    <!--======================================= Footer =======================================-->
+    <footer>
+        <p>Copyright © 2019 - Ailton Lima</p>
+    </footer>
 </body>
 
 </html>
