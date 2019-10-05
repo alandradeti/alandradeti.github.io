@@ -255,13 +255,13 @@
     background: #3f3250;
 }
 
-#divisaoContato h1 {
+.divisaoContato h1 {
     font-size: 30pt;
     font-weight: bold;
     text-transform: uppercase;
 }
 
-#divisaoContato h3 {
+.divisaoContato h3 {
     font-size: 14pt;
     color: #e9e9e9;
 }
