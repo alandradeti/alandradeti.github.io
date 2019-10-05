@@ -75,7 +75,7 @@
 
 /*======================= Galeria (Botões) =======================*/
 #portfolio{
-    padding-top: 8%;
+    padding: 8%;
     text-align: center;
 }
 
@@ -241,4 +241,131 @@
 	position: absolute;
 	bottom: 20px;
 	right: 20px;
+}
+
+/*contato*/
+.campoDuplo {
+    width: 100%;
+    margin-bottom: 3%;
+    display: inline-block;
+}
+
+.contatos {
+    width: 70%;
+    background: #494e6b;
+    border: 1px solid #e3e3e3;
+    border-radius: 1%;
+    margin-bottom: 6%;
+    margin-left: 6%;
+    padding: 2%;
+    overflow: hidden;
+    margin-top: 9%;
+    float: left;
+}
+
+.icone {
+    float: left;
+    width: 10%;
+    color: #fff;
+    background-color: #3f3250;
+    border: 1px solid #3f3250;
+    text-align: center;
+    font-size: 13pt;
+    border-radius: 4px 0 0 4px;
+    padding-top: 4%;
+    padding-left: 1%;
+}
+
+input {
+    float: left;
+    border: 1px solid #ccc;
+    width: 85%;
+    padding: 0.5%;
+    padding-bottom: 0.7%;
+    border-left: none;
+    border-radius: 0 4px 4px 0;
+    padding: 3%;
+}
+
+select {
+    border: 1px solid #ccc;
+    border-left: none;
+    border-radius: 0 4px 4px 0;
+}
+
+
+.campoDuplo:nth-child(3){
+    float: left;
+}
+
+input:focus,
+select {
+    outline: none;
+}
+
+.campo,
+.campoDuplo,
+.campoMensagem {
+    display: flex;
+}
+
+.campo input {
+    width: 100%;
+    padding-left: 1%;
+}
+
+.campoMensagem {
+    margin-top: 2%;
+    width: 100%;
+}
+
+.campoMensagem .icone {
+    width: 7.5%;
+    padding-top: 9%;
+    padding-bottom: 10%;
+}
+
+#mensagem {
+    resize: none;
+    overflow: auto;
+    width: 100%;
+    padding-bottom: 31%;
+    border: 1px solid #ccc;
+    border-left: none;
+    border-radius: 0 4px 4px 0;
+    padding-left: 1%;
+}
+
+.botao {
+    padding-top: 5%;
+    clear: both;
+}
+
+#enviar {
+    margin: 0 auto;
+    display: flex;
+    color: #fff;
+    background-color: #3f3250;
+    border-radius: 4px;
+    border: 1px solid #3f3250;
+    padding: 2%;
+}
+
+#enviar:hover {
+    background: #00ac8d;
+}
+
+.teste1,teste2{
+    height: 20%;
+}
+
+.teste1{
+    float: left;
+    width: 50%;
+}
+
+.teste2{
+    float: right;
+    width: 50%;
+    
 }
