@@ -5,60 +5,38 @@
 }
 
 /*======================= Navbar =======================*/
-#navbar {
-    position: fixed;
-    top: -100%;
-    width: 100%;
-    display: block;
-    transition: top 0.6s;
-    z-index: 99;
+nav{
+    position:fixed;
+    background: rgba(0,0,0,0.2);
+    padding:0px 20px;
+    width:  100%;
+    overflow: hidden;
+    z-index: 100;
+    transition: background-color 1s ease 0s;
 }
 
-#logo img {
-    width: 150px;
-    padding: 7%;
-    height: 80px;
-}
-
-.menu {
-    clear: both;
-    background: #192231;
-    border-bottom: 1px solid #22252c;
-    width: 100%;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
-    position: fixed;
-
-}
-
-#logo {
-    display: inline-block;
+.logo-brand img{
+    float:left;
+    padding-top: 0.7%;
+    width: 8.5%;
     margin-left: 20%;
-    margin-right: 30%;
-    float: left;
+    margin-right: 29%;
 }
 
-#navegacao {
-    display: inline-block;
-    width: 100%;
-}
-
-#navegacao a {
-    display: inline-block;
-    text-decoration: none;
+.nav-wrapper a{
+    padding: 2%;
+    float:left;
     color: #fff;
-    padding-right: 0.7%;
-    padding-left: 0.7%;
-    padding-top: 2.5%;
-    padding-bottom: 2%;
-    text-align: center;
 }
 
-#navegacao a:hover {
+.nav-wrapper a:hover{
     text-decoration: none;
+    background-color: #E14658;
     color: #fff;
-    padding-top: 2.5%;
-    padding-bottom: 2%;
-    background: #E14658;
+}
+
+.colorNav{
+    background-color: #192231;
 }
 
 /*======================= Parallax =======================*/
