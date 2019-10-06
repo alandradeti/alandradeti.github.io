@@ -2,16 +2,7 @@
 /*================== Scroll ==================*/
 window.onscroll = function () {
     navegar();
-    scroll();
 };
-
-/*function scroll() {
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-        document.getElementById("navbar").style.top = "0";
-    } else {
-        document.getElementById("navbar").style.top = "-100%";
-    }
-}*/
 
 $(document).ready(function(){
     $(window).scroll(function(){
@@ -21,7 +12,7 @@ $(document).ready(function(){
             $('nav').removeClass('colorNav');
         }
     })
-})
+});
 
 /*================== Navegação ==================*/
 function navegar() {
