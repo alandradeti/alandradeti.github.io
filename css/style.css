@@ -32,8 +32,8 @@
 
 #logo {
     display: inline-block;
-    margin-left: 23%;
-    margin-right: 23%;
+    margin-left: 20%;
+    margin-right: 30%;
     float: left;
 }
 
@@ -133,9 +133,9 @@
 
 .grid li {
     display: inline-block;
-    width: 440px;
+    width: 33%;
     margin: 0;
-    padding: 20px;
+    padding: 1.8%;
     text-align: left;
     position: relative;
 }
