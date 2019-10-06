@@ -6,7 +6,7 @@ window.onscroll = function () {
 
 $(document).ready(function(){
     $(window).scroll(function(){
-        if($(window).scrollTop()>450){
+        if($(window).scrollTop()>300){
             $('nav').addClass('colorNav');
         }else{
             $('nav').removeClass('colorNav');
