@@ -483,6 +483,16 @@ nav {
     text-align: center;
 }
 
+span ul{
+    width: 100%;
+}
+
+span ul li{
+    width: 100%;
+    white-space: nowrap;
+}
+
+
 .navegacaoGaleria {
     text-align: center;
 }
