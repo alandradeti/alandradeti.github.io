@@ -578,6 +578,8 @@ span ul li{
     margin: 0;
     padding: 0;
     color: #fff;
+    font-size: 21px;
+    margin-bottom: 2%;
 }
 
 .grid figcaption a {
