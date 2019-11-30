@@ -8,8 +8,10 @@ $(document).ready(function(){
     $(window).scroll(function(){
         if($(window).scrollTop()>300){
             $('nav').addClass('colorNav');
+            $('#logo').css('opacity', '1');
         }else{
-            $('nav').removeClass('colorNav');
+            $('nav').removeClass('colorNav'); 
+            $('#logo').css('opacity', '0');
         }
     })
 });
@@ -38,9 +40,9 @@ $(document).ready(function () {
         }
     });
 
-    if ($(".filter-button").removeClass("active")) {
+    /*if ($(".filter-button").removeClass("active")) {
         $(this).removeClass("active");
     }
-    $(this).addClass("active");
+    $(this).addClass("active");*/
 
 });

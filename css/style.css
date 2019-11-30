@@ -23,6 +23,11 @@ nav {
     margin-right: 29%;
 }
 
+#logo{
+    opacity: 0;
+    transition-duration: 0.6s;
+}
+
 .nav-wrapper a {
     padding: 2%;
     float: left;
@@ -41,20 +46,34 @@ nav {
 
 /*======================= Parallax =======================*/
 #imgHeader {
-    background-image: url("../img/photo-01.png");
+    background-image: url("../img/photo-01.jpg");
     width: 100%;
     height: 100%;
+    
+    filter: hue-rotate(100deg);
 
     /*Efeito*/
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
+}
+
+#imgHeader img{
+    margin-top: 20%;
+    width: 30%;
+    height: 30%;
 }
 
 /*======================= Timeline =======================*/
 .circle,.year{
     box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+}
+
+.certificado{
+    width: 100%;
+    height: 39%;
 }
 
 #sobre{
@@ -94,7 +113,7 @@ nav {
     content: "";
     width: 3px;
     height: 100%;
-    background: #302124;
+    background: #192231;
     position: absolute;
     top: 0;
     left: 50%;
@@ -142,7 +161,7 @@ nav {
 
 .main-timeline9 .timeline-content {
     text-align: center;
-    margin-top: 8px;
+    margin-top: 11%;
     position: relative;
     transition: all .3s ease 0s
 }
@@ -226,12 +245,13 @@ nav {
     margin: 10px 0 50px;
     background: #cca872;
     border-radius: 7px;
-    font-size: 25px;
+    font-size: 140%;
+    font-weight: 500;
     color: #fff
 }
 
 .main-timeline9 .title {
-    font-size: 25px;
+    font-size: 130%;
     font-weight: 700;
     color: #cca872;
     margin-top: 0
@@ -250,7 +270,7 @@ nav {
 }
 
 .main-timeline9 .description {
-    font-size: 14px;
+    font-size: 81%;
     color: #a6a6a6;
     text-align: justify;
 }
@@ -493,11 +513,6 @@ span ul li{
 }
 
 
-.navegacaoGaleria {
-    text-align: center;
-}
-
-
 .filter-button {
     font-size: 18px;
     text-align: center;
@@ -518,22 +533,7 @@ span ul li{
     background-color: #3f3250;
     padding: 0.4%;
     margin-bottom: 1%;
-
 }
-
-.filter-button:active {
-    background-color: #3f3250;
-    color: white;
-}
-
-.port-image {
-    width: 100%;
-}
-
-.gallery_product {
-    margin-bottom: 30px;
-}
-
 /*======================= Galeria (Projetos) =======================*/
 
 .grid {
@@ -547,6 +547,7 @@ span ul li{
 .grid li {
     display: inline-block;
     width: 33%;
+    font-weight: 500;
     margin: 0;
     padding: 1.8%;
     text-align: left;
@@ -570,8 +571,8 @@ span ul li{
     top: 0;
     left: 0;
     padding: 20px;
-    background: #2c3f52;
-    color: #ed4e6e;
+    background: #192231;
+    color: #E14658;
 }
 
 .grid figcaption h3 {
@@ -587,7 +588,7 @@ span ul li{
     padding: 5px 10px;
     border-radius: 2px;
     display: inline-block;
-    background: #ed4e6e;
+    background: #E14658;
     color: #fff;
 }
 
@@ -798,7 +799,7 @@ select {
 }
 
 #enviar:hover {
-    background: #3f3250;
+    background: #3d2b53;
 }
 
 .teste1,
@@ -902,7 +903,7 @@ teste2 {
 .fa-github-square {
     display: inline-block;
     font-size: 40px;
-    color: #232323;
+    color: #192231;
     text-align: center;
     border: 1px solid #232323;
     line-height: 30px;
@@ -983,7 +984,7 @@ teste2 {
 footer p {
     padding: 1%;
     margin: 0;
-    background-color: #22252c;
+    background-color: #192231;
     display: block;
     text-align: center;
     color: #fff;
