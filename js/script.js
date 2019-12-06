@@ -1,4 +1,3 @@
-/*======================================= Barra de Navegação - Scroll =======================================*/
 /*================== Scroll ==================*/
 window.onscroll = function () {
     navegar();
@@ -26,7 +25,7 @@ function navegar() {
     });
 }
 
-/*** Galeria ****/
+/*================== Botões Galeria ==================*/
 
 $(document).ready(function () {
     $(".filter-button").click(function () {
@@ -39,10 +38,5 @@ $(document).ready(function () {
             $('.filter').filter('.' + value).show('3000');
         }
     });
-
-    /*if ($(".filter-button").removeClass("active")) {
-        $(this).removeClass("active");
-    }
-    $(this).addClass("active");*/
 
 });

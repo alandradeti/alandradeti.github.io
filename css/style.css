@@ -46,11 +46,11 @@ nav {
 
 /*======================= Parallax =======================*/
 #imgHeader {
-    background-image: url("../img/photo-01.jpg");
+    background-image: url("../img/photo-01.png");
     width: 100%;
     height: 100%;
     
-    filter: hue-rotate(100deg);
+    /*filter: hue-rotate(100deg);*/
 
     /*Efeito*/
     background-attachment: fixed;
@@ -783,9 +783,20 @@ select {
     padding-left: 1%;
 }
 
+.loading {
+    background-image: url(../img/loading.gif);
+    background-size: contain;
+    height: 9%;
+    width: 7.5%;
+    display: none;
+    margin-left: 1%;
+    margin-top: 4%;
+};
+
 .botao {
-    padding-top: 5%;
     clear: both;
+    width: 100%;
+    display: inline-block;
 }
 
 #enviar {
@@ -796,17 +807,14 @@ select {
     border-radius: 4px;
     border: 1px solid #3f3250;
     padding: 2%;
+    float: left;
+    margin-left: 39%;
+    margin-top: 4%;
 }
 
 #enviar:hover {
     background: #3d2b53;
 }
-
-.teste1,
-teste2 {
-    height: 20%;
-}
-
 .formLeft {
     float: left;
     width: 50%;
