@@ -23,7 +23,6 @@ if($_POST){
 
     $Email = new PHPMailer(true);
 		$Email->SetLanguage("br");
-        $Email->Charset = 'UTF-8';
 		$Email->IsSMTP(); // Habilita o SMTP 
 		$Email->SMTPAuth = true; //Ativa e-mail autenticado
 		$Email->Host = 'smtp.gmail.com'; //Servidor de envio # verificar qual o host correto com a hospedagem as vezes fica como smtp.
@@ -40,12 +39,11 @@ if($_POST){
 		$Email->FromName = ($nome);
 		$Email->AddAddress("ailtonlm.andrade@outlook.com"); //  para quem será enviada a mensagem
 		// informando no email, o assunto da mensagem
-		$Email->Subject = $assunto;
+		$Email->Subject = utf8_decode($assunto);
 		// Define o texto da mensagem (aceita HTML)
 		$Email->Body .= "<br />
 						 <strong>Nome:</strong> $nome<br />									
 						 <strong>E-mail:</strong> $email<br />
-						 <strong>Telefone:</strong> $telefone<br />
 						 <strong>Mensagem:</strong> $mensagem									
 						 ";	
 		// verifica se está tudo ok com oa parametros acima, se nao, avisa do erro. Se sim, envia.
