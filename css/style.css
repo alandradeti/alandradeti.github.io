@@ -46,7 +46,7 @@ nav {
 
 /*======================= Parallax =======================*/
 #imgHeader {
-    background-image: url("../img/photo-01.png");
+    background-image: url(../img/photo-01.PNG);
     width: 100%;
     height: 100%;
     
