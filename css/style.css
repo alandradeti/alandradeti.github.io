@@ -276,7 +276,7 @@
 }
 
 .main-timeline9 .description {
-    font-size: 81%;
+    /*font-size: 81%;*/
     color: #a6a6a6;
     text-align: justify;
 }
@@ -1038,7 +1038,7 @@ footer p {
         padding: 4%;
         display: block;
         font-weight: 500;
-        font-size: 25px;
+        font-size: 23px;
     }
     
     .responsive a:first-child{
@@ -1093,7 +1093,7 @@ footer p {
     }
 }
 
-@media (min-width: 769px) and (max-width: 863.98px) {
+@media (min-width: 768.98px) and (max-width: 863.98px) {
     .topnav{
         height: 10%;   
     }
@@ -1146,9 +1146,74 @@ footer p {
 
 /*======================================= Fim - Barra de navegação =======================================*/
 
-
 /*Dispositivos extra small (telefones em modo retrato, com menos de 576px)*/
 @media (max-width: 575.98px ){
+    #imgHeader img {
+        margin-top: 70%;
+        width: 65%;
+        height: 20%;
+    }
+    
+    .title{
+        font-size: 30px;
+    }
+    .subtitle{
+        font-size: 17px;
+    }
+    .description{
+        font-size: 19px;
+        text-align: justify!important;
+        margin-left: 5%;
+    }
+    .filter-button{
+        margin: 2%;
+    }
+    .grid li{
+        width: 85%;
+        margin-bottom: 10%;
+    }
+    .contatos {
+        width: 90%;
+        height: 63%;
+        padding: 4%;
+    }
+    .formRight,.formLeft{
+        margin-top: 0;
+        float: none;
+        width: 100%;
+    }
+    input {
+        width: 100%;
+        padding: 4%;
+    }
+    #enviar {
+        margin-left:  27%;
+    }
+    .card {
+        width: 90%;
+    }
+    .card-content .description {
+        font-size: 16px;
+        text-align: center;
+    }
+    
+    .profile-card-3 h2 {
+        font-size: 30px;
+    }
+    
+    .profile-card-3 h2 small{
+        font-size: 18px;
+    }
+    
+    .fa-linkedin:before, .fa-github-square:before{
+        font-size: 50px;
+    }
+    
+    footer{
+        font-size: 18px; 
+        background: #192231;
+        padding: 3%;
+    }
     
 }
 
