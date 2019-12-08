@@ -1175,6 +1175,7 @@ footer p {
     .contatos {
         width: 90%;
         padding: 4%;
+        height: 70%;
     }
     .formRight,.formLeft{
         margin-top: 0;
@@ -1183,10 +1184,11 @@ footer p {
     }
     input {
         width: 100%;
-        padding: 4%;
+        padding: 5%;
     }
     #enviar {
         margin-left:  27%;
+        margin-top: 7%;
     }
     .card {
         width: 90%;
