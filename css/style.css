@@ -713,6 +713,7 @@ span ul li{
     margin-top: 7%;
     float: left;
     box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.5);
+    overflow: visible;
 }
 
 .icone {
@@ -1176,6 +1177,7 @@ footer p {
         padding: 5%;
         height: 100%;
         margin-bottom: 15%;
+        position: relative;
     }
     .formRight,.formLeft{
         margin-top: 0;
