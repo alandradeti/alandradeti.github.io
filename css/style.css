@@ -1176,6 +1176,7 @@ footer p {
         width: 90%;
         padding: 5%;
         height: 100%;
+        margin-bottom: 15%;
     }
     .formRight,.formLeft{
         margin-top: 0;
@@ -1233,6 +1234,11 @@ footer p {
     
     .campoDuplo{
         margin-bottom: 8%;
+    }
+    
+    #contato {
+        padding-top: 15%;
+        padding-bottom: 15%;
     }
     
 }
