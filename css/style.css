@@ -1216,6 +1216,14 @@ footer p {
         padding: 3%;
     }
     
+    .loading{
+        background-repeat: no-repeat;
+        height: 5%;
+        width: 5%;
+        margin-left: 1%;
+        margin-top: 10%;
+    }
+    
 }
 
 /*Dispositivos small (telefones em modo paisagem, com 576px ou mais)*/
