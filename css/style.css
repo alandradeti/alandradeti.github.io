@@ -1174,8 +1174,8 @@ footer p {
     }
     .contatos {
         width: 90%;
-        padding: 4%;
-        height: 70%;
+        padding: 6%;
+        height: 80%;
     }
     .formRight,.formLeft{
         margin-top: 0;
@@ -1222,6 +1222,10 @@ footer p {
         width: 5%;
         margin-left: 1%;
         margin-top: 10%;
+    }
+    
+    .campoDuplo{
+        margin-bottom: 8%;
     }
     
 }
