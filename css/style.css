@@ -1144,7 +1144,6 @@ footer p {
 }
 
 /*======================================= Fim - Barra de navegação =======================================*/
-
 /*Dispositivos extra small (telefones em modo retrato, com menos de 576px)*/
 @media (max-width: 575.98px ){
     #imgHeader img {
@@ -1162,7 +1161,7 @@ footer p {
     .description{
         font-size: 19px;
         text-align: justify!important;
-        margin-left: 5%;
+        margin-left: 8%;
     }
     .filter-button{
         margin: 2%;
@@ -1171,12 +1170,13 @@ footer p {
         width: 85%;
         margin-bottom: 10%;
     }
-    .contatos {
+    
+     .contatos {
         width: 90%;
+        height: 110%;
         padding: 5%;
-        height: 100%;
-        margin-bottom: 15%;
     }
+    
     .formRight,.formLeft{
         margin-top: 0;
         float: none;
@@ -1184,19 +1184,30 @@ footer p {
     }
     input {
         width: 100%;
-        padding: 10%;
+        padding: 3%;
     }
     .icone{
         width: 13%;
-        padding-top: 10%;
+        padding-top: 5%;
     }
-    
-    
     #enviar {
-        margin-left:  20%;
+        margin-left:  24%;
         margin-top: 7%;
         padding: 7%;
     }
+    
+    .loading{
+        background-repeat: no-repeat;
+        height: 5%;
+        width: 5%;
+        margin-left: 1%;
+        margin-top: 10%;
+    }
+    
+    .campoDuplo{
+        margin-bottom: 5%;
+    }
+    
     .card {
         width: 90%;
     }
@@ -1222,24 +1233,45 @@ footer p {
         background: #192231;
         padding: 3%;
     }
-    
-    .loading{
-        background-repeat: no-repeat;
-        height: 5%;
-        width: 5%;
-        margin-left: 1%;
-        margin-top: 10%;
+
+}
+
+@media (max-width: 389.98px ){
+    .contatos {
+        width: 90%;
+        height: 90%;
+        padding: 3%;
     }
     
-    .campoDuplo{
-        margin-bottom: 8%;
+    #enviar {
+        margin-left:  20%;
+        margin-top: 7%;
+        padding: 7%;
     }
     
-    #contato {
-        padding-top: 15%;
-        padding-bottom: 15%;
+    .icone{
+        width: 13%;
+        padding-top: 10%;
+    }
+}
+
+@media (max-width: 520.98px ){
+    .contatos {
+        width: 90%;
+        height: 105%;
+        padding: 5%;
     }
     
+    #enviar {
+        margin-left:  20%;
+        margin-top: 7%;
+        padding: 7%;
+    }
+    
+    .icone{
+        width: 13%;
+        padding-top: 10%;
+    }
 }
 
 /*Dispositivos small (telefones em modo paisagem, com 576px ou mais)*/
